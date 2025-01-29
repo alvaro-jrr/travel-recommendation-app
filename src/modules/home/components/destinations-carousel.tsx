@@ -36,7 +36,7 @@ export function DestinationsCarousel({ className }: { className?: string }) {
             >
               <img
                 src={image}
-                className="aspect-video overflow-hidden rounded-lg object-cover"
+                className="aspect-video w-full rounded-lg object-cover"
                 alt={`Destination ${index + 1}`}
               />
             </CarouselItem>

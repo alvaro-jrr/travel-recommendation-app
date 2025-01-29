@@ -8,7 +8,7 @@ export function HomePage() {
     <div className="min-h-svh">
       <NavBar className="py-3.5" />
 
-      <main className="w-full px-6">
+      <main className="w-full">
         <Hero className="py-24" />
 
         <DestinationsCarousel />

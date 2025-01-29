@@ -4,7 +4,9 @@ import { Button } from "~/components/ui/button";
 
 export function Hero({ className }: { className?: string }) {
   return (
-    <div className={cn("flex flex-col gap-6 md:items-center", className)}>
+    <div
+      className={cn("container flex flex-col gap-6 md:items-center", className)}
+    >
       <h1 className="text-4xl font-bold md:text-center">
         Descubre tu destino de{" "}
         <em className="text-blue-500 not-italic">viaje perfecto</em>
