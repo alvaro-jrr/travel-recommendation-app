@@ -6,7 +6,7 @@ import { NavBar } from "../components/navbar";
 export function HomePage() {
   return (
     <div className="min-h-svh">
-      <NavBar className="px-6 py-3.5" />
+      <NavBar className="py-3.5" />
 
       <main className="w-full px-6">
         <Hero className="py-24" />
